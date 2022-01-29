@@ -1,0 +1,43 @@
+@font-face {
+
+    src : url("/fonts/BMJUA_ttf.ttf");
+
+    font-family: "jua"
+
+}
+h1 {
+
+  font-family: "jua";
+
+}
+
+p{
+    font-family: "jua";
+}
+h2 {
+
+    font-family: "jua";
+  
+  }
+  h3 {
+
+    font-family: "jua";
+  
+  }
+  h4 {
+
+    font-family: "jua";
+  
+  }
+  h5 {
+
+    font-family: "jua";
+  
+  }
+  
+.answer-box{
+    font-family: "jua";
+}
+.wait-hd{
+  font-family: "jua";
+}

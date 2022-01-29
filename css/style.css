@@ -1,0 +1,533 @@
+body{
+    background:url(img/banner1.png);
+    color:#ffffff;
+    font-family: 'noto Sans KR' sans-serif;
+}
+.start{
+    display: flex;
+    flex-direction: column; 
+}
+
+.question{
+    display: none;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*대기창*/
+.wait{
+    width: 700px;
+    height: 700px;
+    border: black solid 3px;
+    border-radius: 10%;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: none;
+}
+.wait > img{
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    padding-top: 100px;
+   
+}
+.wait-bgimg{
+    display: none;
+}
+.wait > p{
+    font-size: 50px;
+    padding-top: 150px;
+    margin: 0 auto;
+    color: black;
+}
+.wait-hd{
+    display: none;
+    font-size: 50px;
+    padding-top: 150px;
+    margin: 0 auto;
+    color: black;
+}
+.wait-bt{
+    margin-top: 30px;
+    align-self: center;
+    width: 200px;
+    height: 100px;
+    background-color: #ebebeb;
+    color:black;
+    border:#1f1f1f solid 3px;
+    border-radius: 30%;
+    box-shadow: -5px 10px 5px rgb(0,0,0);
+    
+}
+.wait-bt2{
+    display: none;
+    margin-top: 30px;
+    align-self: center;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    color:black;
+    border:#1f1f1f solid 3px;
+    border-radius: 30%;
+    box-shadow: -5px 10px 5px rgb(0,0,0);  
+}
+
+
+
+
+/*메인*/
+.center-txt{
+    text-align: center;
+    width: 300px;
+    color: black;
+    margin-top: 15px;
+    font-size: 30px;
+}
+.title-txt1{
+    font-weight:650;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.title-txt2{
+    font-weight:650;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.title-txt3{
+    font-weight:650;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.title-txt4{
+    font-weight:650;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col{
+    max-width: 1%;
+    color: blue;
+}
+.col1{
+    color:red;
+}
+.main-title{
+    font-size: 50px;
+    color:black;
+    background-color: rgb(253,246,218);
+}
+
+.sub-title{
+    font-size: 24px;
+    font-weight: 90;
+    color:white;
+    
+    width: 500px;
+    margin: 0 auto;
+
+}
+
+.btn-start{
+    line-height: 15px;
+    font-size: 16px;
+    color:black;
+    background-color: rgb(253,246,218);
+    border:white solid 1px;
+}
+
+.start-cover{
+    display: flex;
+    justify-content:center;
+
+}
+
+.question-content{
+    font-size: 50px;
+    color: black;
+}
+.waring-box{
+    display: flex;
+    vertical-align: middle;
+   
+}
+.waring-box img{
+    display: block; 
+    margin: 0px auto;
+    width: 100px;
+    
+   
+}
+
+.waring1{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin-right: 50px;
+    color: black;
+    text-align: center;
+    flex: 0 0 350px;
+}
+.waring2{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    
+    color: black;
+    text-align: center;
+    flex: 0 0 350px;
+}
+.waring3{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin-left: 50px;
+    color: black;
+    text-align: center;
+    flex: 0 0 350px;
+}
+
+
+.answer-box{
+    display: flex;
+    margin: 0 auto;
+}
+.btn-answer1{
+    background-color:  rgb(253,246,218);
+    border:white solid 1px;
+    width: 288px;
+    margin-right: 25px;
+    font-size: 20px;
+    color:black
+}
+.btn-answer2{
+    background-color:  rgb(253,246,218);
+    border:white solid 1px;
+    width: 288px;
+    margin-left: 25px;
+    font-size: 20px;
+    color:black;
+}
+
+.btn-answer1:hover{
+    background-color: #ff9300;
+    border:#1f1f1f;
+    width: 288px;
+    margin: 0 auto;
+    margin-right: 25px;
+    font-size: 20px;
+    color:#ffffff;
+}
+.btn-answer2:hover{
+    background-color: #ff9300;
+    border:#1f1f1f;
+    width: 288px;
+    margin: 0 auto;
+    margin-left: 25px;
+    font-size: 20px;
+    color:#ffffff;
+}
+
+/* .progress-bar{
+    background-color: #ff9300;
+}
+
+.progress{
+    background-color: #525764;
+} */
+
+.updown-slash{
+    width: 166px;
+    margin: 0 auto;
+}
+/*결과창*/
+.result{
+    display: none;
+    height: 800px;
+}
+.result-info{
+    display: flex;
+}
+.img-info{
+    margin-top: 200px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+#img{
+    width: 400px;
+    height: 400px;
+    margin: 1px;
+    
+}
+.info{
+    opacity: 0;
+    width: 890px;
+    height: 700px;
+    margin-top: 100px;
+    background-color: white;
+    border:black solid 3px;
+    border-radius: 10%;
+    
+}
+.info-txt1{
+    line-height: 50px;
+    margin:30px 20px;
+    width: 300px;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    border-bottom-right-radius: 2em;
+}
+.info-txt2{
+    line-height: 50px;
+    margin:30px 20px;
+    width: 300px;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    border-bottom-right-radius: 2em;
+}
+.info-txt1 > p{
+   
+    padding-left: 20px;
+
+}
+
+.info-txt2 > p{
+    padding-left: 20px;
+
+}
+.result-message{
+    color: black;
+    margin: 40px;
+    font-size: 24px;
+    font-weight: 100;
+    padding-top: 100px;
+    margin-left: 70px;
+    
+}
+.result-message > p{
+    background-color: orange;
+    width: 190px;
+    height: 40px;
+    border: orange;
+    margin:0 auto;
+    text-align: center;
+}
+.result-animal{
+    font-size: 40px;
+    font-weight: 500;
+    color:black;
+}
+.result-explain{
+    margin-left: 21px;
+    font-size: 20px;
+    font-weight: normal;
+    color:black;
+    white-space: pre-line;
+}
+.result-txt{
+    margin:50px 1px;
+}
+#result-txt{
+    text-align: center;
+    height: 50px;
+    line-height: 200px;
+    margin: 0 auto;
+    font-size: 24px;
+    color: black;
+}
+
+/*문제번호*/
+.question-number{
+    width: 60px;
+    height: 60px;
+    margin:0 auto;
+    margin-top: 30px;
+    border: black solid 3px;
+    border-radius: 50%;
+    text-align: center;
+}
+.question-number > h3{
+    color: black;
+    line-height: 55px;
+}
+
+/*animation*/
+.title-txt1{
+    top:-1000px;
+    position: relative;
+    animation: test 1s;
+    animation-delay:0.5s ;
+    animation-fill-mode: both;
+}
+.title-txt2{
+    top:-1000px;
+    position: relative;
+    animation: test 1s;
+    animation-delay:0.8s ;
+    animation-fill-mode: both;
+}
+.title-txt3{
+    top:-1000px;
+    position: relative;
+    animation: test 1s;
+    animation-delay:1.1s ;
+    animation-fill-mode: both;
+}
+.title-txt4{
+    top:-1000px;
+    position: relative;
+    animation: test 1s;
+    animation-delay:1.4s ;
+    animation-fill-mode: both;
+}
+
+h1{
+    top:-1000px;
+    position: relative;
+    animation:test 1.0s;
+    animation-fill-mode: both;
+   }
+.btn1{
+    position: relative;
+    animation:test .5s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    
+   }
+   .btn{
+    vertical-align: middle;
+    position: relative;
+    animation:test 1s;
+    animation-delay:1.2s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+   }
+   hr{
+    position: relative;
+    animation: ani2;
+    animation-delay: 2.3s;
+    animation-fill-mode :both;
+    animation-duration: 1s;
+    opacity: 0;
+   }
+
+   @keyframes test{
+   
+    0%{top:-1000px;}
+   
+    90%{top:50px;}
+    100%{top:20px;}
+   
+   }
+
+.info-txt1 {
+    margin-left: -5000px;
+    position: relative;
+    animation-name: ani;
+    animation-delay: 2s;
+    animation-fill-mode :both;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  .info-txt2 {
+    margin-left: -5000px;
+    position: relative;
+    animation-name: ani;
+    animation-delay: 4s;
+    animation-fill-mode :both;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+h4{
+    position: relative;
+    animation: ani2;
+    animation-delay: 3.5s;
+    animation-fill-mode :both;
+    animation-duration: 1s;
+    opacity: 0;
+}
+h5{
+    position: relative;
+    animation: ani2;
+    animation-delay: 5.5s;
+    animation-fill-mode :both;
+    animation-duration: 1s;
+    opacity: 0;
+}
+ 
+  @keyframes ani {
+    0%   {left:0;}
+    100%  {left:5020px;}
+}
+  @keyframes ani2 {
+    0% {opacity: 0;}
+    100% {opacity: 1;} 
+}
+
+.img-info{
+    opacity: 0;
+    animation: ani2;
+    position: relative;
+    animation-delay: 1s;
+    animation-fill-mode :both;
+    animation-duration: 1s;
+}
+.rounded-circle{
+    position: relative;
+    bottom: 550px;
+}
+
+.result-info{
+    opacity: 0;
+    animation: ani2;
+    position: relative;
+    animation-delay: 1s;
+    animation-fill-mode :both;
+    animation-duration: 1s;
+}
+/*회전*/
+
+.halo{
+    position: relative;
+    margin:0 auto;
+    margin-bottom: 30px;
+    animation: rotate 1s linear infinite;
+    transform-origin: 50% 50%;
+}
+.info{
+    position:relative;
+    animation: ani2;
+    animation-delay: 1s;
+    animation-fill-mode :both;
+    animation-duration: 1s;
+}
+@keyframes rotate{
+	100% {
+    	transform: rotate(360deg);
+    }
+}
+
+/*공유*/
+.share{
+    width: 600px;
+    padding-top: 20px;
+    margin-left: 10px;
+}
+
+/*광고*/
+.add{
+    padding-top: 30px;
+    width: 400px;
+    margin: 0 auto;  
+}
